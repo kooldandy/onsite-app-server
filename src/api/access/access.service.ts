@@ -38,6 +38,7 @@ export class AccessService {
     user.firstName = createUserDto.firstName;
     user.lastName = createUserDto.lastName;
     user.password = createUserDto.password;
+    user.email = createUserDto.email;
 
     return user.save();
   }
